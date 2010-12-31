@@ -1,0 +1,112 @@
+/*---------- Font Styles ----------*/
+.Heading1 { color: #036; }
+.Heading2 { color: #036; }
+.Heading3 { color: #036; }
+
+.Title1 { color: #333; }
+.Title2 { color: #333; }
+.Title3 { color: #333; }
+
+.Details { color: #999; }
+.Important { color: #900; }
+
+/* =Content 
+--------------------------------------------*/
+
+.Content { }
+	.Content .Container { background: #fff;}
+
+/* =Footer 
+--------------------------------------------*/
+
+.Footer { border-top: 1px solid #ccc; }
+	.Footer ul { border-color: #fff; }
+		.Footer ul li { display: inline; }
+			.Footer ul li a { border-color: #369; }
+
+/*---------- Navigations ----------*/
+
+/* Nav1 - top level navigation; blue gradient bg, grey text, selected state w/ gradient bg & white text, */
+.Nav1 {}
+
+/* Nav2 - Profile Nav for roles */
+.Nav2 { }
+	.Nav2 li { border-color: #ccc; }
+		.Nav2 li a { background-color: #f6f6f6; }
+	
+	.Nav2 li.selected a,
+	.Nav2 li:hover a { background-color: #fff; color: #000; }
+
+/* Nav3 - Profile Nav for Account Info */
+.Nav3 { border-color: #ccc; }
+	.Nav3 .Title3 .arrowright1 { color: #999; }
+	.Nav3 .Title3 .arrowdown2 { color: #1E3C7D; }
+	
+/* SubNav1 - Underneath the Buttons on Profile Page */
+.SubNav1 { }
+	.SubNav1 li { border-color: #369; }
+
+/*---------- Generic Modules -----------*/
+		
+.Assignments { }
+	.Assignments .Title3 { color: #333; }
+
+
+.Activity { border-color: #d6d6d6; }
+		.Activity .info ul { color: #999; }
+				.Activity .info ul li.action { color: #333; }
+		.Activity .info .title { color: #1e3c7d; }
+		.Activity .photo a img { border-color: #01194a; }
+		
+/* About */
+.About { }
+	.About .Title3 { color: #333; }
+	.About strong { color: #333; }	
+		
+		
+.Error { border-color: #f8e682; background-color: #fefae8; color: #900; }
+
+/*---------- Tables ----------*/
+
+/* Table1 */
+.Table1 { }
+	.Table1 thead tr,
+	.Table1 tfoot tr { background: #F6F6F6; /* url(bg-Table1_th.jpg) repeat-x; */}
+		.Table1 thead tr th.first,
+		.Table1 tfoot tr th.first { border-color: #ccc; background: url(bg-Table_td_border.jpg) no-repeat right center; }
+		.Table1 thead tr th.last,
+		.Table1 tfoot tr th.last { border-color: #ccc; }
+		.Table1 thead tr th,
+		.Table1 tfoot tr th { vertical-align: bottom; border-color: #ccc; background: url(bg-Table_td_border.jpg) no-repeat right center; }
+	.Table1 tr {}
+		.Table1 th {}
+		.Table1 td { border-color: #ccc; background: url(bg-Table_td_border.jpg) no-repeat right center; }
+		.Table1 td.last { background: none; }
+
+/* Table2 */
+.Table2 { border-color: #ccc; }
+		.Table2 td { background: url(bg-Table_td_border.jpg) no-repeat right center; }
+	.Table2 thead tr { background: url(bg-Table1_th.jpg) repeat-x; }
+		.Table2 thead tr th { border-color: #eee; background: url(bg-Table_td_border.jpg) no-repeat right center; }
+	.Table2 tbody tr.row { background-color: #f0f3f7; }
+	.Table2 tfoot tr.row { background-color: #036; color: #fff; }
+	.Table2 tfoot tr.nav { color: #369; }
+
+/*---------- Modules ----------*/
+.HeadingNavGroup { border-color: #ccc; }
+
+
+/* ProfileStats - */
+.ProfileStats { color: #1e3c7d; }
+	.ProfileStats .status { color:#666; border-color: #ccc; }
+	.ProfileStats .notifications {}
+		.ProfileStats .notifications .Title3 { color: #333; }
+		.ProfileStats .notifications ul { border-color: #ccc; background-color: #fff; }
+				.ProfileStats .notifications ul li.alerts div { color: #900; }
+					.ProfileStats .notifications ul li a div { color: #999;  }
+
+/* ProfileNav */
+.ProfileNav {}
+	.ProfileNav .group a img { border-color: #1e3c7d; }
+	.ProfileNav .forum .title { color: #1e3c7d; }
+	.ProfileNav .bio strong { color: #333; }

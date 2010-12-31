@@ -1,0 +1,187 @@
+/* work-desk
+--------------------------------------------------------------------------------------------------- */
+.graymiddle { clear: both; background-color: #fff; padding: 10px 0; }
+.whitemiddle { clear: both; background-color: #ffffff; padding: 10px 0; }
+
+.workdesk {}
+	.workdesk p { margin-top: 0; margin-left: 5px; }
+	.workdesk .Heading3 { margin: 0 0 2px 5px; }
+	.workdesk .Heading1 { margin: 0 0 0 5px; }
+	.workdesk .avatar { margin: 0 12px 0 0; float: left; }
+	.workdesk .avatar img { width: 57px; height: 57px; }
+	.workdesk #top-master { padding: 0 0 10px 0; }
+	.workdesk .showAll { display: none; }
+	.workdesk a span { display: none; }
+
+#desktabs { margin: 0 0 5px 0; border-bottom: 1px solid #ccc; }
+	#desktabs #workdesk-selector { width: 100px; float: right; padding: 14px 0 0 0; }
+		#desktabs #workdesk-selector select { width: 100%; } 
+	#desktabs ul { list-style: none; padding: 0 7px; width: 775px; float: left; }
+	#desktabs li { float: left; margin: 0 4px 0 0; }
+	#desktabs li a { display: block; border-width: 1px; border-style: solid; border-color: #ccc; border-width: 1px 1px 0 1px; padding: 9px 14px; margin: 6px 0 0 0; background-color: #f6f6f6; }
+		#desktabs li a:hover, #desktabs a#selected { margin-top: 0; padding-top: 15px; background-color: white; }
+
+.deskblock { margin: 0 0 30px 0; }
+	.deskblock table { border: 1px solid #ccc; background-color: white; width: 100%; }
+	.deskblock table td { font-size: 11px; vertical-align: middle;}
+	.deskblock table td.first a { font-size: 12px; }
+	.deskblock table tr.last { border-bottom: 0; }
+	.deskblock .Table1 thead tr th.first { padding-left: 10px; }
+	.deskblock .Table1 thead tr th.last { background-image: none; }
+	.deskblock .Table1 thead th a { color: #333333; text-decoration: underline; }
+	.deskblock th a:hover { color: #062758; }
+	.deskblock td.punch { color: #990000; }
+	.deskblock td.centers { border-right: 1px solid #ccc; }
+	.deskblock p { line-height: 1.5em; margin-right: 25px; }
+	.deskblock p.actions { margin-right: 0; text-align: right; padding: 5px 10px; font-size: 11px; }
+		.deskblock img.revShareIcon {display: block; width: 26px; margin:0px auto;}
+	.deskblock table#norecentarticles tbody td { padding: 20px; font-size: 14px; }
+	.deskblock .rejectedfooter p.actions { font-size: 12px; }
+	.deskblock .rejectedfooter .appealcredits { float: left; }
+
+#statusmaster {}
+	#statusmaster #status-left { width: 590px; float: left; }
+	#statusmaster #status-right { width: 340px; float: left;  margin-left: 10px; display: inline; }
+		#statusmaster #status-right .box3Content p { font-size: 14px; margin: 0; padding: 0 5px 11px 5px; }
+		#statusmaster #status-right .box3Content p.topper { padding-top: 10px; margin-bottom: 12px; border-bottom: 1px dotted #ccc; }
+	#statusmaster .status .first { }
+	#statusmaster .status td.level1 a:link, #statusmaster .status td.level2 a:link , #statusmaster .status td.level1 a:visited, #statusmaster .status td.level2 a:visited { font-weight: bold; font-size: 14px; color: #5981a9; }
+	#statusmaster .status td.level2 a:link, #statusmaster .status td.level2 a:visited { color: #cc0000; }
+	.status thead th.last { background-image: none; }
+	#statusmaster .Heading3 { background-image: url(../images/workdesk-icons.png); background-repeat: no-repeat; padding: 8px 0 9px 47px; margin: 0 0 7px 0; }
+		#statusmaster .Heading3 span.subtle { font-weight: normal; }
+		#statusmaster #wip { background-position: left top; }
+		#statusmaster #questions { background-position: left -39px; }
+		#statusmaster #goals { background-position: left -127px; }
+		#statusmaster #workcounter { background-position: left -81px; margin: 0; padding-bottom: 16px; }
+	#statusmaster .Table1 tbody tr {height:30px; }
+
+/* 3 column layout for status */
+
+#statusmaster.tri {}
+	#statusmaster.tri #status-left { width: 32%; float: left; }
+	#statusmaster.tri #status-right { width: 32%; float: right; }
+	#statusmaster.tri #status-center { width: 32%; float: left; margin-left: 2%; }
+	#statusmaster.tri .status .centotal td { background-color: #999; color: white; font-weight: bold; }
+
+.scorecard {}
+	.scorecard .Heading3 span { font-weight: normal; }
+	.scorecard .Heading3 { padding: 5px 0 10px 40px; margin: 0 0 5px 5px; background-image: url(../images/scorecard_headers.png); background-repeat: no-repeat; }
+		.scorecard #rating { background-position: left top; padding-top: 10px; padding-bottom: 5px; }
+		.scorecard #keystats { background-position: left -59px; padding-left: 43px; }
+	.scorecard .force { height: 130px; }
+
+#stats { background-color: white; border: 1px solid #ccc; }
+	#stats .statsinside { padding: 15px 10px; }
+	#stats .statsheader { background: #ddd url(../images/boxheader.png) repeat-x top left; height: 35px; line-height: 35px; border-bottom: 1px solid #ccc; color: #333; }
+	#stats .mid { border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;}
+	#stats .statsheader h4 { width: 140px; margin: 0; float: left; text-align: center; font-weight: bold; font-size: 16px; }
+	#stats .mid h4 { float: none; text-align: left; padding: 0 0 0 16px;}
+	#stats .Heading2 { color: #666; font-weight: normal; margin: 0 0 7px 0; }
+	#stats .statsheader p { font-size: 12px; line-height: 1.3em; padding: 0; margin: 0; line-height: 35px; }
+	#stats .statsheader p a { margin: 0 2px 0 2px; padding: 4px; }
+	#stats .statsheader p a:hover, #stats .statsheader p a.selected { background-color: white; padding: 3px; border: 1px solid #ccc; color: #666; text-decoration: none; }
+	#stats tr.total { font-weight: bold; color: #333; }
+
+.half {}
+	.half .clmleft, .half .clmright { background-color: white; border: 1px solid #ccc; width: 440px; }
+	.half .clmleft { float: left; }
+	.half .clmright { float: right; }
+	.half .boxinside { margin: 7px; }
+	.half .boxheader { background: #ddd url(../images/boxheader.png) repeat-x top left; height: 45px; line-height: 45px; border-bottom: 1px solid #ccc; color: #333; }
+	.half .boxheader h4 { width: 105px; margin: 0 10px 0 0; float: left; text-align: center; font-weight: bold; font-size: 16px; background: url(../images/boxheader_line.png) no-repeat right center; }
+	.half .boxheader p { font-size: 12px; line-height: 1.3em; padding: 9px 0 0 0; margin: 0; font-size: 11px; }
+
+.thirds {}
+	.thirds .clmleft, .thirds .clmright { background-color: white; border: 1px solid #ccc;}
+	.thirds .clmleft { float: left; width: 64%; }
+	.thirds .clmleft .statsinside { padding: 15px 10px; }
+	.thirds .clmright { float: right; width: 34%; }
+	#stats .thirds .statsheader h4 { width: auto; text-align: left; padding: 0 0 0 16px; }
+
+.scoregraphmaster { padding: 0 0 0 5px; }
+	.scoregraphmaster .score { width: 85px; float: left; margin: 0 10px 0 0; }
+		.score h2 { color: white; font-size: 30px; height: 47px; line-height: 47px; text-align: center; font-weight: bold; }
+				.score .poor { background: url(../images/4colorbars.png) repeat-x left -110px; }
+				.score .average { background: url(../images/4colorbars.png) repeat-x left -55px; }
+				.score .excellent { background: url(../images/4colorbars.png) repeat-x left top; }
+		.deskblock .score p { padding: 3px 13px; margin: 0; font-size: 11px; }
+	.scoregraphmaster .graph { width: 325px; height: 100px; float: left; background: url(../images/5graph.png) no-repeat left 8px; }
+
+		.graphmaster {}
+			.graphmaster .shell { float: left; position: relative; }
+			.graphmaster .poser { position: absolute; bottom: 0; left: 25%; }
+			.graphmaster .blank div { background: none; } 
+
+			.standard { height: 55px; padding: 16px 0 0 16px; }
+				.standard .poser { bottom: 0 !important; bottom: -1px; }
+				.standard .shell { width: 28px; height: 55px; }
+				.standard .blank { background: none; }
+				.standard .bar { width: 12px; font-size: 0px; }
+					.standard .poor { background: url(../images/4colorbars.png) repeat-x left -110px; }
+					.standard .average { background: url(../images/4colorbars.png) repeat-x left -55px; }
+					.standard .excellent { background: url(../images/4colorbars.png) repeat-x left top; }
+
+			.standardnavmaster { padding: 0 8px 0 115px; font-size: 10px; }
+				.standardnavmaster .previous { float: left; width: 48%; }
+				.standardnavmaster .next { float: right; width: 48%; text-align: right; }
+
+			.thirddimension { background: url(../images/3dbase.png) no-repeat left bottom; padding: 5px 0 9px 0;}
+				.thirddimension .shell { height: 100px; width: 60px; }
+				.thirddimension .bartop { background: url(../images/3d.gif) no-repeat top left; }
+				.thirddimension .poser { left: 10px; }
+				.thirddimension .barbottom { background: url(../images/3d.gif) no-repeat bottom right; padding: 8px 8px 0 0; }
+				.thirddimension .blank .barbottom { padding: 0; } 
+				.thirddimension .bar { background-color: #71a3d8; width: 37px; font-size: 10px; text-align: center; color: black; padding-bottom: 7px; }
+					.thirddimension .bar span { display: block; position: absolute; top: -14px; left: 5px; width: 37px; padding: 0; margin: 0;}
+					.thirddimension .blank span { top: -14px; }
+
+			.masterofthethirddimension { }
+				.masterofthethirddimension .leftarrow { width: 11px; margin: 0 3px 0 0; float: left; height: 114px; }
+				.masterofthethirddimension .centergraph { width: 496px; float: left; }
+				.masterofthethirddimension .rightarrow { width: 11px; height: 114px; margin: 0 0 0 3px; float: left; }
+					a.nav3d { display: block; width: 11px; height: 114px; background-image: url(../images/grapharrows.png); background-repeat: no-repeat; }
+						.masterofthethirddimension .leftarrow a.nav3d { background-position: left center; }
+						.masterofthethirddimension .leftarrow a.nav3d:hover { background-position: -22px center; background-color: #e6e6e6; }
+						.masterofthethirddimension .rightarrow a.nav3d { background-position: -11px center; }
+						.masterofthethirddimension .rightarrow a.nav3d:hover { background-position: -33px center; background-color: #e6e6e6; }
+
+
+			.hort { height: 16px; width: 100px; text-align: left; }
+			.hort .bar { background: url(../images/4colorbars.png) repeat-x left -165px; height: 16px; }
+
+		.labels { clear: both; }
+				.labels ul { list-style: none; padding: 3px 0 0 16px; }
+				.labels li { float: left; display: inline; width: 28px; margin: 0; text-align: center; font-size: 10px; }
+		.labels3d {}
+				.labels3d ul { list-style: none; padding: 3px 0 0 0; }
+				.labels3d li { float: left; display: inline; width: 60px; margin: 0; padding: 0; text-align: center; font-size: 10px; overflow: visible; white-space: nowrap; }
+	#piechart { padding: 0 10px; border: 1px solid #ccc; }
+
+	.legend {}
+			.legend span { padding: 0 0 0 16px; background-image: url(../images/5dots.gif); background-repeat: no-repeat; }
+			#norewrite span { background-position: left 2px; }
+			#rewrite span { background-position: left -48px; }
+			#abandon span { background-position: left -98px; }
+			#flagged span { background-position: left -148px; }
+			#rejected span { background-position: left -198px; }
+
+.Table1 .expand  .Form1 label { text-align:left; float: left; width: 200px; }
+.Table1 .expand  .Form1 select { text-align:left; float: left; }
+.Table1 .expand  .Form1 div { clear:both; float:none;}
+.Table1 .expand  .Form1 p { text-align:left;}
+
+
+/* Box3 - white bg with darker grey border, on light gray background */
+
+.Box3 {}
+	.Box3 .box3TL { background-position: left top; height: 8px; padding-left: 7px; font-size: 0; }
+	.Box3 .box3TR { background-position: right top; height: 100%; padding-right: 7px; }
+	.Box3 .box3Content { border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 0 10px; background-color: #fff; }
+	.Box3 .box3BL { background-position: left -10px; height: 8px; padding-left: 7px; font-size: 0; }
+	.Box3 .box3TL, .Box3 .box3TR, .Box3 .box3BR, .Box3 .box3BL { background-image: url(../images/box03.png); }
+	.Box3 .box3BR { background-position: right -10px; height: 100%; padding-right: 5px; }
+
+/* Goals Specific CSS */
+	#statusmaster #status-right .box3Content .goals-thermometer { width: 44px; height: 120px; background-image: url(../images/goalbg.png); border: 1px #e8e8e8 solid; }
+		#statusmaster #status-right .box3Content .goals-thermometer #goals-thermometer-whitespace { background-color: #fff; height: 99%; }

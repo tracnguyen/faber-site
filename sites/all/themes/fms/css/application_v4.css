@@ -1,0 +1,402 @@
+.v4#application {
+	BACKGROUND-COLOR: #ecf1ea; HEIGHT: 1%
+}
+HTML > BODY .v4#application {
+	HEIGHT: auto
+}
+.v4#application #formins {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.v4#application #formins P {
+	FONT-SIZE: 12px
+}
+.v4#application .wrapper {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 50px; PADDING-TOP: 0px
+}
+.v4#application .wrapper FORM {
+	
+}
+.v4#application DIV.duallinedivider {
+	BORDER-BOTTOM: #f6f6f6 1px solid; HEIGHT: 1px; BORDER-TOP: #cacaca 1px solid
+}
+.v4#application #sidebar DIV.duallinedivider {
+	BORDER-BOTTOM: #e7ebe5 1px solid
+}
+.v4#application #ribbon {
+	WIDTH: 597px; BACKGROUND: url(../images/ribbon.png) no-repeat left top; HEIGHT: 93px
+}
+.v4#application #whitebox {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/whitebox_repeat.png) repeat-y left top; PADDING-TOP: 10px
+}
+.v4#application #sidebar {
+	TEXT-ALIGN: center; COLOR: #666; FONT-SIZE: 12px
+}
+.v4#application #sidebar .dottedline.section {
+	BORDER-BOTTOM: #bdc1bb 1px dotted; PADDING-BOTTOM: 1.4em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 1.4em
+}
+.v4#application #sidebar P {
+	LINE-HEIGHT: 1.8em; MARGIN: 0px 0px 1em; FONT-SIZE: 12px
+}
+.v4#application #sidebar H3 {
+	MARGIN: 0px 0px 0.5em; COLOR: #333; FONT-SIZE: 16px
+}
+.v4#application #sidebar EM {
+	COLOR: #666
+}
+.v4#application #sidebar P.near {
+	MARGIN: 0px
+}
+.v4#application #sidebar DT {
+	LINE-HEIGHT: 1.8em; COLOR: #333; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.v4#application #sidebar DD {
+	LINE-HEIGHT: 1.8em; MARGIN: 0px 0px 1.5em
+}
+.v4#application #sidebar DD.last {
+	MARGIN: 0px
+}
+.v4#application .Heading1 P {
+	COLOR: #333; FONT-SIZE: 12px
+}
+.v4#application P {
+	MARGIN: 0px 0px 20px; FONT-SIZE: 11px
+}
+.v4#application .Error P {
+	MARGIN: 0px 0px 5px
+}
+.v4#application H3 {
+	MARGIN: 0px 0px 0.8em; COLOR: #4a7832; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.v4#application EM {
+	FONT-STYLE: italic; COLOR: #999
+}
+.v4#application FIELDSET {
+	BORDER-BOTTOM: #999999 1px dotted; PADDING-BOTTOM: 20px; MARGIN: 5px 5px 25px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.v4#application FIELDSET H2 {
+	MARGIN: 0px 0px 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #369; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.v4#application FIELDSET H2.near {
+	MARGIN: 0px 0px 5px
+}
+.v4#application LABEL {
+	COLOR: #666666; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.v4#application .subtle {
+	FONT-WEIGHT: normal
+}
+.v4#application INPUT {
+	FONT-SIZE: 14px
+}
+.v4#application INPUT[type='text'] {
+	WIDTH: 280px
+}
+.v4#application INPUT[type='password'] {
+	WIDTH: 280px
+}
+.ietypetext {
+	WIDTH: 280px
+}
+.v4#application INPUT[type='text'] {
+	BACKGROUND-IMAGE: url(../images/input-innershadow.png); BORDER-BOTTOM: #e0dede 1px solid; BORDER-LEFT: #e0dede 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: white; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left -997px; BORDER-TOP: #e0dede 1px solid; BORDER-RIGHT: #e0dede 1px solid; PADDING-TOP: 3px
+}
+.v4#application INPUT[type='password'] {
+	BACKGROUND-IMAGE: url(../images/input-innershadow.png); BORDER-BOTTOM: #e0dede 1px solid; BORDER-LEFT: #e0dede 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: white; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left -997px; BORDER-TOP: #e0dede 1px solid; BORDER-RIGHT: #e0dede 1px solid; PADDING-TOP: 3px
+}
+.v4#application #contributors-agreement {
+	BACKGROUND-IMAGE: url(../images/input-innershadow.png); BORDER-BOTTOM: #e0dede 1px solid; BORDER-LEFT: #e0dede 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: white; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left -997px; BORDER-TOP: #e0dede 1px solid; BORDER-RIGHT: #e0dede 1px solid; PADDING-TOP: 3px
+}
+.v4#application TEXTAREA {
+	BACKGROUND-IMAGE: url(../images/input-innershadow.png); BORDER-BOTTOM: #e0dede 1px solid; BORDER-LEFT: #e0dede 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: white; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left -997px; BORDER-TOP: #e0dede 1px solid; BORDER-RIGHT: #e0dede 1px solid; PADDING-TOP: 3px
+}
+.v4#application INPUT.ietypetext {
+	BACKGROUND-IMAGE: url(../images/input-innershadow.png); BORDER-BOTTOM: #e0dede 1px solid; BORDER-LEFT: #e0dede 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: white; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left -997px; BORDER-TOP: #e0dede 1px solid; BORDER-RIGHT: #e0dede 1px solid; PADDING-TOP: 3px
+}
+.v4#application INPUT:focus {
+	BACKGROUND-COLOR: #ebffff; BACKGROUND-POSITION: left top
+}
+.v4#application TEXTAREA:focus {
+	BACKGROUND-COLOR: #ebffff; BACKGROUND-POSITION: left top
+}
+#application INPUT.iefocusfix {
+	BACKGROUND-COLOR: #ebffff; BACKGROUND-POSITION: left top
+}
+.v4#application SELECT {
+	BORDER-BOTTOM: #e0dede 1px solid; BORDER-LEFT: #e0dede 1px solid; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: white; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP: #e0dede 1px solid; BORDER-RIGHT: #e0dede 1px solid; PADDING-TOP: 4px
+}
+.v4#application SELECT:focus {
+	BACKGROUND-COLOR: #ebffff
+}
+#application SELECT.iefocusfix {
+	BACKGROUND-COLOR: #ebffff
+}
+.v4#application UL.simplestack {
+	
+}
+.v4#application UL.simplestack LABEL {
+	MARGIN: 7px 0px 0px; WIDTH: 180px; DISPLAY: inline-block; VERTICAL-ALIGN: top
+}
+.v4#application UL.simplestack LI {
+	MARGIN: 0px 0px 12px
+}
+.v4#application UL.radiostack {
+	MARGIN: 0px 0px 30px; COLOR: #666666; FONT-WEIGHT: bold
+}
+.v4#application UL.radiostack LI {
+	MARGIN: 0px 0px 10px; FONT-SIZE: 14px
+}
+.v4#application UL.radiostack LABEL {
+	MARGIN: 0px 0px 0px 5px
+}
+.v4#application #verifybox {
+	
+}
+.v4#application #captchabox {
+	MARGIN: 10px 0px 25px
+}
+.v4#application IMG#capcha {
+	FLOAT: left
+}
+.v4#application #captchabox INPUT {
+	MARGIN: 0px 10px 0px 0px; WIDTH: auto; FLOAT: left; FONT-SIZE: 27px
+}
+.v4#application P.upload {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f3f3f3; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.v4#application P.upload INPUT {
+	WIDTH: 100%
+}
+.v4#application P.near {
+	MARGIN-BOTTOM: 5px
+}
+.v4#application INPUT[type='text'].singleline {
+	WIDTH: 460px
+}
+.v4#application TEXTAREA {
+	WIDTH: 460px
+}
+.v4#application TEXTAREA.singleline {
+	HEIGHT: 100px
+}
+.v4#application .column-master {
+	
+}
+.v4#application .stackedagainst.column-master {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.v4#application .stackedagainst.column-master .left {
+	WIDTH: 180px; FLOAT: left
+}
+.v4#application .stackedagainst.column-master .right {
+	WIDTH: 305px; FLOAT: left
+}
+.v4#application .stackedagainst.column-master .right LI {
+	TEXT-ALIGN: left; MARGIN: 0px 0px 12px
+}
+.v4#application .sidebar.column-master {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.v4#application .sidebar.column-master .left {
+	WIDTH: 597px; FLOAT: left
+}
+.v4#application .sidebar.column-master .right {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 25px; FLOAT: right; PADDING-TOP: 15px
+}
+.v4#application H2.upload {
+	PADDING-RIGHT: 20px; MARGIN-BOTTOM: 5px; BACKGROUND: url(../images/upload-icon.png) no-repeat right center; FLOAT: left
+}
+.v4#application H3.upload {
+	PADDING-RIGHT: 20px; MARGIN-BOTTOM: 5px; BACKGROUND: url(../images/upload-icon.png) no-repeat right center; FLOAT: left
+}
+.v4#application P#massiveroles {
+	MARGIN: 10px 0px
+}
+.v4#application P#massiveroles LABEL {
+	MARGIN: 0px 15px 0px 0px; COLOR: #333; FONT-SIZE: 16px
+}
+.v4#application .qualification {
+	
+}
+.v4#application .qualification INPUT[type='text'] {
+	WIDTH: 460px
+}
+.v4#application .qualification TEXTAREA {
+	WIDTH: 460px
+}
+.v4#application .qualification TEXTAREA {
+	HEIGHT: 100px
+}
+.v4#application .qualification P {
+	LINE-HEIGHT: 1.4em; FONT-SIZE: 11px
+}
+.v4#application .qualification P.stack {
+	LINE-HEIGHT: 2em
+}
+.v4#application .qualification .filemode .url {
+	DISPLAY: none
+}
+.v4#application .qualification .urlmode .file {
+	DISPLAY: none
+}
+.v4#application #demowork {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.v4#application #contributors-agreement {
+	BORDER-BOTTOM: #e0dede 1px solid; BORDER-LEFT: #e0dede 1px solid; MARGIN: 0px 0px 7px; WIDTH: 99%; HEIGHT: 150px; FONT-SIZE: 11px; OVERFLOW: auto; BORDER-TOP: #e0dede 1px solid; BORDER-RIGHT: #e0dede 1px solid
+}
+.v4#application #contributors-agreement .Heading1 {
+	MARGIN: 5px; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.v4#application #contributors-agreement P {
+	LINE-HEIGHT: 1.2em; MARGIN: 0px 5px 10px
+}
+.v4#application #contributors-agreement OL {
+	MARGIN: 15px
+}
+.v4#application #contributors-agreement DL {
+	MARGIN: 15px
+}
+.v4#application #contributors-agreement OL.alpha {
+	LIST-STYLE-TYPE: lower-alpha
+}
+.v4#application #contributors-agreement LI {
+	MARGIN: 15px
+}
+.v4#application #contributors-agreement DT {
+	MARGIN: 15px
+}
+.v4#application #contributors-agreement DD {
+	MARGIN: 15px
+}
+.v4#application #contributors-agreement LI SPAN {
+	TEXT-DECORATION: underline
+}
+.tooltip {
+	POSITION: absolute; PADDING-BOTTOM: 1px; PADDING-LEFT: 16px; PADDING-RIGHT: 5px; BACKGROUND: url(../images/validate-icon.png) white no-repeat left 3px; HEIGHT: 22px; FONT-SIZE: 11px; PADDING-TOP: 1px; LEFT: 542px
+}
+.blank.tooltip {
+	BACKGROUND-POSITION: -3000em -3000em
+}
+.success.tooltip {
+	BACKGROUND-POSITION: left -997px
+}
+.failure.tooltip {
+	BACKGROUND-POSITION: left -493px
+}
+.alert.tooltip {
+	BACKGROUND-POSITION: left -493px
+}
+.alert.tooltip P {
+	DISPLAY: none
+}
+.blank.tooltip P {
+	DISPLAY: none
+}
+.success.tooltip P {
+	DISPLAY: none
+}
+.failure.tooltip P {
+	DISPLAY: none
+}
+.alert.tooltip:hover P {
+	DISPLAY: block
+}
+.failure.tooltip:hover P.desc {
+	DISPLAY: block
+}
+.blank.tooltip P.note {
+	DISPLAY: none
+}
+.success.tooltip P.note {
+	DISPLAY: none
+}
+.alert.tooltip P.note {
+	DISPLAY: none
+}
+.failure.tooltip P.note {
+	DISPLAY: none
+}
+.note.tooltip P.desc {
+	DISPLAY: none
+}
+.note.tooltip P.note {
+	BACKGROUND-COLOR: white; DISPLAY: block
+}
+.tooltip P {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.v4#application .submitbox {
+	
+}
+.v4#application .submitbox P {
+	LINE-HEIGHT: 46px; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.v4#application #js_submit {
+	MARGIN: 0px 10px 0px 0px; WIDTH: 204px; DISPLAY: inline-block; BACKGROUND: url(../images/submit.png) no-repeat left top; HEIGHT: 46px
+}
+.v4#application #js_submit SPAN {
+	VISIBILITY: hidden
+}
+.v4#application .invisible {
+	DISPLAY: none
+}
+.v4#application .submitmessage {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px 10px; PADDING-LEFT: 21px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/validate-icon.png) no-repeat left -493px; PADDING-TOP: 0px
+}
+.v4#application .submitmessage P {
+	MARGIN: 0px
+}
+#application .Error {
+	BORDER-BOTTOM: #f8e682 1px solid; BORDER-LEFT: #f8e682 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fefae8; MARGIN: 10px 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #990000; BORDER-TOP: #f8e682 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #f8e682 1px solid; PADDING-TOP: 10px
+}
+.v4#application .hide {
+	DISPLAY: none
+}
+.blogger.v4#application {
+	
+}
+.blogger.v4#application #ribbon {
+	BACKGROUND-IMAGE: url(../images/ribbon_blog.png)
+}
+.blogger.v4#application .suggestion-mode-master {
+	
+}
+.blogger.v4#application #suggestion-mode-master .mode {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: none; PADDING-TOP: 0px
+}
+.blogger.v4#application #suggestion-mode-master .mode P {
+	MARGIN: 0px
+}
+.blogger.v4#application #suggestion-mode-master .mode IMG {
+	VERTICAL-ALIGN: middle
+}
+.blogger.v4#application .loading#suggestion-mode-master .loading.mode {
+	DISPLAY: block
+}
+.blogger.v4#application .results#suggestion-mode-master .results.mode {
+	DISPLAY: block
+}
+.blogger.v4#application .error#suggestion-mode-master .error.mode {
+	DISPLAY: block
+}
+.blogger.v4#application #suggestion-mode-master .loading.mode P {
+	TEXT-ALIGN: center
+}
+.blogger.v4#application #suggestion-mode-master .results.mode P {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #d9efda; PADDING-TOP: 3px; -moz-border-radius: 4px; border-radius: 4px
+}
+.blogger.v4#application LABEL.minilabel {
+	FONT-STYLE: italic; MARGIN: 0px 7px 0px 0px; COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.blogger.v4#application #suggestions {
+	FONT-FAMILY: monospace; FONT-SIZE: 1em
+}
+.blogger.v4#application P.help {
+	PADDING-BOTTOM: 3px; FONT-STYLE: italic; MARGIN: 0px 0px 7px; PADDING-LEFT: 28px; PADDING-RIGHT: 10px; BACKGROUND: url(../images/error.png) #d6f1f9 no-repeat 5px center; PADDING-TOP: 3px; -moz-border-radius: 4px; border-radius: 4px
+}
+.blogger.v4#application P.suggesterror {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 28px; PADDING-RIGHT: 10px; BACKGROUND: url(../images/x.png) #ffd4d4 no-repeat 5px center; PADDING-TOP: 3px; -moz-border-radius: 4px; border-radius: 4px
+}
+.blogger.v4#application P.help A {
+	FONT-STYLE: normal
+}

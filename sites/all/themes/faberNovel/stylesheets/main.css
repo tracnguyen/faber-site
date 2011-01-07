@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Global reset of paddings and margins for all HTML elements */
+* { margin:0; padding: 0;}
+/* Correction: margin/padding reset caused too small select boxes. */
+option { padding-left: 0.4em; } 
+select { padding: 1px; }
+/* Global fix of the Italics bugs in IE 5.x and IE 6  */
+* html body * { overflow:visible; }
+* html iframe, * html frame { overflow:auto; }
+* html frameset { overflow:hidden; }
+html { height: 100%; margin-bottom: 1px; }
+/* default for body */
+body { font-size:12px; color: #000;font-family:Arial, Verdana, Tahoma, Geneva, sans-serif; background: white; text-align: left; }
+/*	default for link */
+a { color:#06C; background:transparent; text-decoration:none; }
+a:focus, a:hover, a:active { color:#F90; }
+/*	Form	*/
+form * { vertical-align:middle;}
+/* 	Lists	*/
+ul { margin:0; padding:0;}
+ul li { margin:0; padding:0;}
+ul.cls-menu li, ul.menu li { list-style:none;}
+/*	Images	*/
+img { border: none;}
+/* 	Border background	*/
+.Frame, .Ft, .Ftl, .Ftr, .Fb, .Fbl, .Fbr, .Fc  { height:1%;}
+.Frame { background-repeat:repeat-y;  background-position:center; }
+.Frame * { background-position:center; }
+.Ft { background-position:top; background-repeat:no-repeat;}
+.Fb { background-position:bottom; background-repeat:no-repeat}
+.Ftl { background-position:top left; background-repeat:no-repeat;}
+.Ftr { background-position:top right; background-repeat:no-repeat;}
+.Fbl { background-position:bottom left; background-repeat:no-repeat;}
+.Fbr { background-position:bottom right; background-repeat:no-repeat;}
+	
+/*	Common styles	*/
+.f-left { float: left;}
+.f-right { float: right;}
+.clr { clear: both; background: url('../images/blank.gif') repeat-x; height: 0px;}
+
+/*	Website styles lie beneath	*/
+body { min-width: 1240px;}
+#site-wrapper, #site-wrapper-t, #site-wrapper-c, #site-wrapper-b { height: 1%;}
+
+#header-subnav { padding: 9px 11% 22px 0px; background: url('../images/bg-sub-nav.png') repeat-x; margin: 0 0 0 11%; height: 15px;}
+	#header-subnav-inner { }
+	#rss-xml {display: block; float: right; width: 24px; height: 24px; background: url('../images/icon-rss.png'); text-indent: -9999px; margin-top: -2px;}
+	#block-menu-menu-top-menu-branches { padding: 0 10px 0 18px; float: left;}
+	#block-locale-0 { padding: 0 0px 0 0px; float: left;}
+	#block-menu-menu-top-subnav-social { padding: 0 0px 0 0px; width: 310px; float: left;}
+	
+	#header-subnav a {color: #9b9b9b;}
+	#header-subnav a:hover, #header-subnav a.active {color: #e1e1e1;}
+	#header-subnav ul {padding: 0;}
+	#header-subnav ul li {list-style:none; display: inline; margin: 0;}
+
+	#block-menu-menu-top-menu-branches li.leaf { background: url('../images/icon-3colors-small.png') 100% 50% no-repeat; padding: 0 26px 0 13px; margin: 0;}
+	#block-menu-menu-top-menu-branches li.first {padding-left: 0;}
+	#block-menu-menu-top-menu-branches li.last {padding-right: 0; background: none;}
+	#block-locale-0 ul {width: 120px; margin: 0 48px;}
+	#block-menu-menu-top-subnav-social li, #block-locale-0 li {background: url('../images/bg-sep01.png') 100% 50% no-repeat; padding: 0 14px 0 11px; float: left;}
+	#block-menu-menu-top-subnav-social li.first, #block-locale-0 li.first {padding-left: 0;}
+	#block-menu-menu-top-subnav-social li.last, #block-locale-0 li.last {padding-right: 0; background: none;}
+	#block-locale-0 li a{display: block; width: 16px; height: 18px; overflow: hidden;}
+
+#header-main { padding: 0px 11% 12px 0px; margin: 18px 0 0px 11%; height: 122px;}
+	#header-main-inner { }	
+	#logo-fabelNovel {display: block; float: left; width: 364px; height: 95px; background: url('../images/logo-faber.png'); text-indent: -9999px;}
+	
+	#header-main .block-menu { float: right; margin-left: 30px;}	
+	#header-main .block-menu h2 { font-size: 24px; background: url('../images/bg-nav-title.png') repeat-x; padding: 0px 0 12px 0;}	
+	#header-main .block-menu ul { margin: 0; color: #b2b2b2; padding: 0; font-size: 16px;}	
+	#header-main .block-menu ul a { color: #b2b2b2; padding: 2px 3px;}	
+	#header-main .block-menu ul a:hover, #header-main .block-menu ul a.active { color: #fff; background-color: #222;}	
+	#header-main .block-menu li { margin: 0; padding: 1px 0 0 0; list-style-image: none; }	
+	
+#banner-main { margin: 0 11% 0 0px; }	
+	#banner-main-inner { }	
+	#banner-main .views_slideshow_main { background: #e1e1e1; padding: 0 0 0 13%;}
+	#banner-main .views_slideshow_main .views_slideshow_singleframe_teaser_section { position: relative;}
+	#banner-main .views_slideshow_main .views_slideshow_singleframe_teaser_section .views_slideshow_slide{ padding: 0 0 0 0;}
+	/*#banner-main .views_slideshow_main  div{background: transparent !important;}*/
+	#banner-main .views_slideshow_main  .views-row{ overflow: hidden; background: url('../images/icon-3colors.png') no-repeat 0% 5px; width: 100% !important;}
+	#banner-main .views_slideshow_main  .views_slideshow_singleframe_slide{ width: 100% !important; height: 349px !important;}
+	#banner-main .views_slideshow_main  .views-field-title{ padding: 16px 0 0 0; color: #fff; font-size: 38px; font-weight: bold; background: transparent !important; line-height: 39px;}
+	#banner-main .views_slideshow_main  .views-field-title span.field-content{ padding: 14px 12px; background: #333333; display: block;}
+	#banner-main .views_slideshow_main  .views-field-body { padding: 24px 12px; background: transparent; font-family: Georgia; font-size: 25px; line-height: 26px;}
+	#banner-main .views_slideshow_main  .views-field-field-carousel-home-image-fid{ }
+	#banner-main .views_slideshow_main  .views-field-field-carousel-home-image-fid span.field-content{ width: 620px; float: right;}
+	#banner-main .views_slideshow_main  .views-field-field-carousel-home-image-fid img{width: 100% !important; height: 100%; float: right; margin: 0 0 0 12px;}
+	#banner-main .views_slideshow_main  .views-field-field-carousel-home-intro-value{ position: absolute; bottom: 0; right: 0; width: 588px; background: url('../images/bg-banner-intro.png') transparent !important; padding: 12px 16px 12px 16px; height: 52px; font-size: 20px; color: #fff;}
+	
+	#banner-main .views-slideshow-controls-bottom { float: right; padding: 6px 4px;}
+	#banner-main .pager-item { float: left; padding: 0 0 0 2px;}
+	#banner-main .pager-item a{ display: block; width: 12px; height: 12px; background: url('../images/icon-carousel-paging.png'); text-indent: -50px; overflow: hidden;}
+	#banner-main .activeSlide a{ background: url('../images/icon-carousel-paging-active.png');}
+	
+#site-content {}
+
+
+/*	error	*/
+#system-message {
+	display:block;
+	font-style:normal;
+	line-height:1.5em;
+	background-image:none;
+	padding:10px
+}
+#system-message dd {
+	font-weight:700;
+	text-indent:30px;
+	margin:0
+}
+#system-message dd ul {
+	background:#C3D2E5 url(../images/notice-info.png) no-repeat scroll 4px center;
+	color:#05B;
+	list-style:none;
+	position:relative;
+	border:1px solid;
+	background-position:10px 11px!important;
+	background-repeat:no-repeat!important;
+	font-size:13px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	margin:0;
+	padding:10px
+}
+#system-message dd.message ul {
+	background:#dbe3ff url(../images/icons/information.png) 10px 11px no-repeat;
+	color:#585b66;
+	border-color:#a2b4ee
+}
+#system-message dd.error ul {
+	border-top:3px solid #DE7A7B;
+	border-bottom:3px solid #DE7A7B;
+	background:#ffcece url(../images/icons/cross_circle.png) 10px 11px no-repeat;
+	color:#665252;
+	border-color:#df8f8f
+}
+#system-message dd.notice ul {
+	border-top:3px solid #F0DC7E;
+	border-bottom:3px solid #F0DC7E;
+	background:#fffbcc url(../images/icons/exclamation.png) 10px 11px no-repeat;
+	color:#666452;
+	border-color:#e6db55
+}
+#closeMessage {
+	width:7px;
+	height:7px;
+	position:absolute;
+	right:5px;
+	top:5px;
+	background:url(../images/icons/cross_grey_small.png) no-repeat
+}

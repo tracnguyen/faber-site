@@ -1,0 +1,21 @@
+; $Id: faberNovel.info,v 1.0 2011/01/04 14:27:32 goba Exp $
+name = faberNovel
+description = template for faberNovel site
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+regions[left] = "Left sidebar"
+regions[right] = "Right sidebar"
+regions[content] = "Content"
+regions[header_subnav] = "Header Subnav"
+regions[header_main] = "Header Main"
+regions[footer1] = "Footer 1"
+regions[footer2] = "Footer 2"
+regions[footer_logo] = "Footer Logo"
+regions[main_banner] = "Main Banner"
+
+; Information added by drupal.org packaging script on 2010-12-15
+version = "6.20"
+project = "drupal"
+datestamp = "1292447788"

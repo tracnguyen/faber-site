@@ -1,0 +1,11 @@
+; $Id: faber_carousel.info,v 1.1 2011/06/01 16:22:21 doublethink Exp $
+name = faberNovel's Twitter
+package = faberNovel
+description = Tweets from faberNovel's Twitter
+core = 6.x
+
+; Information added by drupal.org packaging script on 2010-04-18
+version = "6.x-1.0"
+core = "6.x"
+project = "faber_twitter"
+datestamp = "1271597413"
